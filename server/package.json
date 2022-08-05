@@ -1,0 +1,22 @@
+{
+  "name": "node-ice-fire-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "an application to display epic books from the api of ice and fire",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.10",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
