@@ -11,9 +11,8 @@ app.get('/api', async (req, res) => {
         res.json(data);
     } catch (error) {
         const errorMessage = error.message;
-        res.status(500).send(errorMessage);
+        res.status(500).json({ error: errorMessage });
     }
-})
-
+});
 
 app.listen(5000, () => { console.log('Server started on port 5000') });
